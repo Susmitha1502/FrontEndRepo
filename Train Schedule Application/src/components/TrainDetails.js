@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { Box, List, ListItem, Typography } from '@mui/material';
+import axios from 'axios';
 
 const TrainDetails = () => {
   const [trainDetails, setTrainDetails] = useState(null);
